@@ -17,6 +17,6 @@ jobs:
         with:
             python-version: '3.8'
 
-        - name: Run tests
+        -name: Run tests
         run: |
             pytest -m unittest test_main.py -v
